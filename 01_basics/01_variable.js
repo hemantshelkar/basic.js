@@ -7,6 +7,11 @@ accountCity="Indore";
 can not re-intialize the value of const
 console.log(accountId);*/
 
+/*
+Prefer not to use var
+because of issue in block scope and functional scope
+*/
+
 accountEmail="hemant@gmail.com";
 accountName="Hemant Shelkar";
 accountCity="Pune";
