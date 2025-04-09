@@ -31,6 +31,8 @@ console.log("output =",typeof 3);
 console.log("output =",typeof true);
 console.log("output =",typeof 3.2);
 
+// done this for now
+
 
 
 
