@@ -1,0 +1,41 @@
+const name="hemant"
+const repoCount=3
+// console.log(name+repoCount+"value");  this is very common way of concatinating the String
+
+// Now the another way is using String Interpolation
+// we can use back-ticks ``;
+// console.log(`My name is ${name} and My RepoCounts are ${repoCount}`); //known as String InterPolation
+
+const gameName=new String("HemantPro-gamer ninja abc")
+// console.log(gameName[0]);
+// console.log(gameName.__proto__)
+// console.log(gameName.toUpperCase())
+// console.log(gameName.charAt(3))
+// console.log(gameName.indexOf('m'));
+// const newgameName=gameName.substring(0,4)
+// console.log(newgameName) //start from first parameter but always executed less then one of second parameter we can not provide nagative values in a parameters
+
+// const newString=gameName.slice(-7 ,-4) //we can use negative value as well positive value to print indexing,,negative value print reverse index values and positive we all know 
+// console.log(newString);
+
+const newStringOne="     Hemant     "
+console.log(newStringOne);
+console.log(newStringOne.trim())
+
+const url="https://Hemant.com//Hemant%20Shelkar"
+
+console.log(url.replace("%20","-"))
+
+console.log(url.includes("Hemant"))
+console.log(url.includes("Brajesh"))
+
+const newGame=gameName
+console.log(newGame.split("-"));
+
+
+
+
+
+
+
+
